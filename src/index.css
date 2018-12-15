@@ -1,0 +1,33 @@
+
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    grid-template-areas:
+            "a   b b b b"
+            "a   b b b b"
+            "a   c c c c"
+            "a   c c c c";
+    font-family: Andalus;
+}
+.title{
+    justify-self: center;
+    grid-area: b;
+}
+
+.body{
+    grid-area: c;
+}
+
+.buttons{
+    justify-self: center;
+    grid-area: a;
+}
+.buttons li{
+    margin-top: 50px;
+    list-style: none;
+}
+.buttons a{
+    text-decoration: none;
+}
