@@ -1,9 +1,10 @@
 import React,{Component} from "react";
+import "../style/index.css"
 
-class comp3 extends Component {
+class comp1 extends Component {
     render() {
         return (
-            <div>
+            <div className='body'>
                 Sed ut perspiciatis unde omnis iste natus error
                 sit voluptatem accusantium doloremque laudantium,
                 totam rem aperiam, eaque ipsa quae ab illo inventore
@@ -15,6 +16,7 @@ class comp3 extends Component {
         );
     }
 }
-export default comp3;
+export default comp1;
 
 
+ 

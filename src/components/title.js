@@ -1,14 +1,13 @@
 import React,{Component} from "react"
-import "./index.css"
-
+import "../style/index.css"
 
 class title extends Component{
     render(){
         return(
                 <div className={"title"}>
-                    <h3>
+                    <h1>
                         This is my home page
-                    </h3>
+                    </h1>
                 </div>
         )
     }
